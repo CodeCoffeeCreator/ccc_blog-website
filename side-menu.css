@@ -75,7 +75,7 @@
 
 .canvas-menu .vertical-menu li a {
   color: #203656;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Kanit', sans-serif;
   font-size: 14px;
   font-weight: 400;
   text-decoration: none;
@@ -94,7 +94,7 @@
 }
 
 .canvas-menu .vertical-menu li.active a {
-  color: #ad1deb;
+  color: #28227c;
 }
 
 .canvas-menu .vertical-menu li.active .submenu a {
@@ -127,7 +127,7 @@
   padding: 10px;
   line-height: 1;
   cursor: pointer;
-  color: #ad1deb;
+  color: #28227c;
   position: absolute;
   top: 0;
   right: 0;

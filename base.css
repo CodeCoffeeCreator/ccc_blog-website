@@ -1,7 +1,7 @@
 body {
   color: #8f9bad;
   background-color: #fff;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Kanit', sans-serif;
   font-size: 15px;
   line-height: 1.7;
   overflow-x: hidden;
@@ -44,14 +44,15 @@ h4,
 h5,
 h6 {
   color: #203656;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Kanit', sans-serif;
   font-weight: 700;
   line-height: 1.4;
   margin: 20px 0;
 }
 
 a {
-  color: #ad1deb;
+  font-family: 'Kanit', sans-serif;
+  color: #28227c;
   outline: 0;
   text-decoration: none;
   transition: all 0.3s ease-in-out;
@@ -102,8 +103,8 @@ a:focus {
 }
 
 .slick-custom-buttons:hover {
-  color: #ad1deb;
-  border-color: #ad1deb;
+  color: #28227c;
+  border-color: #28227c;
 }
 
 .slick-arrows-bot {

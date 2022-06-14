@@ -9,7 +9,7 @@
   top: 20px;
   z-index: 1;
   background-color: #6e72fc;
-  background-image: linear-gradient(315deg, #6e72fc 0%, #ad1deb 74%);
+  background-image: linear-gradient(315deg, #6e72fc 0%, #28227c 74%);
   background-size: 200% auto;
   transition: all 0.3s ease-in-out;
 }
@@ -27,6 +27,10 @@
   overflow: hidden;
 }
 
+.tabs-image {
+  height: 60px;
+}
+
 .post .thumb img {
   transform: scale(1);
   transition: all 0.3s ease-in-out;
@@ -41,7 +45,7 @@
 }
 
 .post .post-title a:hover {
-  color: #ad1deb;
+  color: #28227c;
 }
 
 .post .meta {
@@ -70,7 +74,7 @@
 .post .meta li::after {
   content: '';
   display: inline-block;
-  background-color: #ad1deb;
+  background-color: #28227c;
   border-radius: 50%;
   margin-left: 1rem;
   height: 3px;
@@ -157,12 +161,14 @@
   width: 50px;
   box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0.15);
   background-color: #6e72fc;
-  background: linear-gradient(315deg, #6e72fc 0%, #ad1deb 74%);
+  background: linear-gradient(315deg, #6e72fc 0%, #28227c 74%);
   z-index: 1;
 }
 
 .post .meta li img.author {
   margin-right: 12px;
+  width: 30px;
+  height: 30px;
   vertical-align: middle;
   border-radius: 50%;
 }
@@ -312,7 +318,7 @@
 }
 
 .post .post-bottom .social-share .icons li a:hover {
-  color: #ad1deb;
+  color: #28227c;
 }
 
 .post .post-bottom .social-share .icons li:not(:last-child) {
@@ -333,7 +339,7 @@
 }
 
 .post .post-bottom .more-button a:hover {
-  color: #ad1deb;
+  color: #28227c;
 }
 
 .post.post-list::after {
@@ -361,7 +367,7 @@
   width: 30px;
   box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0.15);
   background-color: #6e72fc;
-  background-image: linear-gradient(315deg, #6e72fc 0%, #ad1deb 74%);
+  background-image: linear-gradient(315deg, #6e72fc 0%, #28227c 74%);
   z-index: 1;
 }
 
@@ -373,8 +379,8 @@
 }
 
 .btn-simple:hover {
-  color: #ad1deb;
-  border-color: #ad1deb;
+  color: #28227c;
+  border-color: #28227c;
 }
 
 .widget {
@@ -402,7 +408,7 @@
   border: 1px solid #fff;
   border-radius: 50%;
   font-size: 12px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Kanit', sans-serif;
   font-weight: 700px;
   height: 24px;
   line-height: 22px;
@@ -413,7 +419,7 @@
   width: 24px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15);
   background: #6e72fc;
-  background-image: linear-gradient(315deg, #6e72fc 0%, #ad1deb 74%);
+  background-image: linear-gradient(315deg, #6e72fc 0%, #28227c 74%);
   z-index: 1;
 }
 
@@ -442,7 +448,7 @@
 }
 
 .widget ul.list li a:hover {
-  color: #ad1deb;
+  color: #28227c;
 }
 
 .widget ul.list li::after {
@@ -479,7 +485,7 @@
   color: #fff;
   padding: 9.5px 36px;
   background-color: #6e72fc;
-  background-image: linear-gradient(315deg, #6e72fc 0%, #ad1deb 74%);
+  background-image: linear-gradient(315deg, #6e72fc 0%, #28227c 74%);
   background-size: 200% auto;
 }
 
@@ -504,8 +510,8 @@
 }
 
 .tag:hover {
-  border-color: #ad1deb;
-  color: #ad1deb;
+  border-color: #28227c;
+  color: #28227c;
 }
 
 .instagram {
